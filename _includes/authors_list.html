@@ -1,0 +1,19 @@
+<ul >
+{% for post in site.posts %}
+		<li id = "articleList" >
+		{%if post.author == page.author_name%}
+				<span class = "origin-publish hidden-xs"><i class = "fa fa-copyright" style="margin-right:0px"></i>原创</span>
+				<a class="post-link article-list" href = "{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+				<span style = "float:right"><i class="fa fa-calendar"></i>{{post.date | date: "%F"}}</span>
+			
+		{% endif %}
+		</li>
+{% endfor %}
+</ul>
+<script type="text/javascript">
+	var html  = document.getElementById("articleList").innerHTML;
+	if(html.trim()){
+	}else{
+		document.getElementById("articleList").innerHTML="暂无文章"
+	}
+</script>
