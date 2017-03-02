@@ -21,8 +21,7 @@ jekyll是一个简单的免费的Blog生成工具，与其他博客生成工具�
 
 ## 关于本博客
 
-本团队博客(WishTeam)主题支持团队多人发表博文，博客的theme会持续进行更新优化，优化的日志在团队介绍中的"更新日志"中说明，本博客theme可以点击页面下的联系我们进入我们的github主页进行下载。
-博文使用kramdown插件对markdown标记语法进行解析，发表博文时按照markdown语法规范进行书写。可以使用markdown编辑器，如MaHua、sublineText、Marxico等,有条件的建议使用sublineText，可以预览效果，本文使用sublineText编辑。
+本团队博客([WishTeam](https://github.com/WishTeam/wishteam.github.io))主题支持团队多人发表博文，博客的theme会持续进行更新优化，优化的日志在团队介绍中的"更新日志"中说明，本博客theme可以点击页面下的联系我们进入我们的github主页进行下载,觉得本主题好的话，就给个star呗。博文使用kramdown插件对markdown标记语法进行解析，发表博文时按照markdown语法规范进行书写。可以使用markdown编辑器，如MaHua、sublineText、Marxico等,有条件的建议使用sublineText，可以预览效果，本文使用sublineText编辑。
 
 ## 博文发表
 
@@ -87,7 +86,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 
 但是由于有一些jetyll语法存在，预览效果并不是最终的效果，只能看出大致排版情况。如果使用jetyll环境编译后预览，那么结果就是最终的呈现效果如下：
 
-![预览效果](/images/guojinwen/preview_jetyll.png)
+![预览效果](/images/guojinwen/jekyll-preview.png)
 
 目前我还不清楚不在jetyll下，有没更好的预览方式，有知道的朋友，可以给我留言，学习学习。
 
@@ -103,7 +102,7 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 ```java
 *文字*
 ```
-[超链接](http://github.com)：
+[超链接](https://wishteam.github.io)：
 ```
 [连接文字内容](http://超链接地址)：
 ```
