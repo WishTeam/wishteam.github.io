@@ -138,5 +138,6 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
     }
 ```
 
+本篇博文包含大多数常用的markdown语法，可以查看博文的md文件。
 
-更多的语法，请参考：[Markdown 语法说明(简体中文版)](http://www.appinn.com/markdown/)
+*更多的语法，请参考：[Markdown 语法说明(简体中文版)](http://www.appinn.com/markdown/)*
