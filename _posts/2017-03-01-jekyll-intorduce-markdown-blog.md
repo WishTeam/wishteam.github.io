@@ -45,7 +45,7 @@ jekyll是一个简单的免费的Blog生成工具，与其他博客生成工具�
 
 博文文件头必须包含如下:
 
-    ```java
+    
     ---
     layout: post
     title:  jekyll文章发表-markdown语法
@@ -56,7 +56,7 @@ jekyll是一个简单的免费的Blog生成工具，与其他博客生成工具�
     
     * content
     {:toc}
-    ```
+    
 
 这个文件头“- - -”包起来的部分指定使用html的layout模板post，文章的标题，文章的分类categories，还有标签tags，文章的作者。除了categories，tags外，所有的信息字段信息都是必须的，为了更好的对文章进行分类建议所有的字段都必填，“- - -”外的两段代码是生成文章目录，也是必须的。
 >PS:   <font color="blue">定义字段"："后面必须要有空格,否则会报错</font>
