@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  jekyll+Markdown发表博文
-categories: jekyll
-tags:  jekyll Markdown
-author: 郭金文
+title:  nginx url匹配规则整理
+categories: nginx
+tags:  nginx url匹配
+author: 陈家栋
 ---
 * content
 {:toc}
