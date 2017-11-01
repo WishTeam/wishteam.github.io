@@ -7,23 +7,23 @@
 
 # Site settings
 title: WishTeam
-brief-intro: 
+brief-intro:
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://guojinwenv1.github.io" # the base hostname & protocol for your site
+url: "https://wishteam.github.io" # the base hostname & protocol for your site
 
 #url标题格式
 permalink: /:year/:month/:day/:title/
 
 # other links
 twitter_username: WishTeam
-#facebook_username: 
+#facebook_username:
 github_username:  WishTeam
 email: wis@ruijie.com.cn
-#weibo_username: 
-#zhihu_username: 
+#weibo_username:
+#zhihu_username:
 #linkedIn_username: gaohaoyang
 #dribbble_username:
- 
+
 description_footer: 本站记录我们锐捷网络软件平台WishTeam团队成长历程！
 
 # comments
@@ -36,8 +36,8 @@ disqus_shortname: https-wishteam-github-io
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id: 
-google_analytics_id: 
+baidu_tongji_id:
+google_analytics_id:
 
 # Build settings
 markdown: kramdown
@@ -63,5 +63,4 @@ collections:
 
 # paginate
 gems: [jekyll-paginate]
-paginate: 6
-
+paginate: 10
