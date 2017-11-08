@@ -18,6 +18,9 @@ description: 使用github pages和jekyll搭建博客的教程。
 * 了解什么是[jekyll](http://jekyll.com.cn/)，jekyll的[基本用法](http://jekyll.com.cn/docs/usage/)，选择一个漂亮的[jekyll主题模板](http://jekyllthemes.org/)
 * 编写博客需要了解的[Liquid](https://liquid.bootcss.com/)模板语言，[Markdown](http://wowubuntu.com/markdown/)语法以及HTML & CSS的基本网页编写知识。
 
+
+
+
 <!-- more -->
 ## 注册一个github的账号
 这个不用写了，请注册完，登录github
