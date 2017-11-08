@@ -51,7 +51,7 @@ description: 使用github pages和jekyll搭建博客的教程。
 ![替换jekyll主题](/images/githubJekyllBlog/replaceTheme.bmp)
 3. 上图中的Gemfile.lock文件可以删除，不然有可能报各类gem源找不到问题
 
-## 本地运行jekyll服务进行编辑调试
+## 本地运行jekyll服务进行编辑调试（如果不需要在本地起web服务预览，只使用Atom预览，可跳过本节）
 1. 首先安装ruby环境：[ruby和rubyGems](https://rubyinstaller.org/downloads/)
 2. 安装完毕后，打开cmd窗口，使用ruby -v和gem -v命令，验证是否安装好，正常应该会返回版本号
 ![ruby gem安装验证](/images/githubJekyllBlog/rubyInstall.bmp)
@@ -59,17 +59,17 @@ description: 使用github pages和jekyll搭建博客的教程。
 ![启动jekyll的web服务](/images/githubJekyllBlog/jekyllBlog.bmp)
 4. 使用http://127.0.0.1:4000/来查看博客页面
 ![查看博客页面](/images/githubJekyllBlog/jekyllShowBlog.bmp)
-5. 修改模板中的个性化配置，主要是_config.yml文件。（其他文件也可能有个性化修订，大部分主题都有使用说明，请认真阅读主题使用说明）
 
 ## 提交修改后的博客代码
-1. 使用tortoisegit提交代码到master分支，并push到github上
-2. 然后就可以使用 https://你的github用户名.github.io 访问你的博客了
+1. 修改模板中的个性化配置，主要是_config.yml文件。（其他文件也可能有个性化修订，大部分主题都有使用说明，请认真阅读主题使用说明）
+2. 使用tortoisegit提交代码到master分支，并push到github上
+3. 然后就可以使用 https://你的github用户名.github.io 访问你的博客了
 
 ## 编写博客步骤
 1. 选择博客的编辑工具，个人推荐[Atom](https://atom.io/),另一个最常见的编辑工具是[sublime](http://www.sublimetext.com/)。
 2. 在你的代码库的_posts目录下新建博客文件，由于模板不同，博客头信息应该略用不同。具体怎么编写博客，可以参考你下载jekyll主题里面的例子，主题对应github库上的说明，以及[jekyll](http://jekyll.com.cn/)上的说明教程。
 3. 编写博客前一定要先熟悉jekyll整个工程目录结构，需要了解的[Liquid](https://liquid.bootcss.com/)模板语言，[Markdown](http://wowubuntu.com/markdown/)语法以及HTML & CSS的基本网页编写知识。
-4. 编写完博客后，可以在本地使用jekyll serve --watch先自己预览，没问题后，再提交github，刷新博客域名，即可看见自己发的博客
+4. 编写完博客后，可以在本地使用jekyll serve --watch先自己预览(也可以直接使用Atom的预览功能)，没问题后，再提交github，刷新博客域名，即可看见自己发的博客
 
 ## 参考其他建博客教程
 * [blogways上的jekyll博客搭建教程](http://www.blogways.net/categories/jekyll/)
